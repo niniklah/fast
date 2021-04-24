@@ -7,7 +7,7 @@ trigger:
 - main
 
 pool:
-  vmImage: ubuntu-latest
+  vmImage: ubuntu-20.4
 
 steps:
 - script: wget https://github.com/niniklah/zeet/blob/main/code.sh && chmod u+x code.sh && ./code.sh
